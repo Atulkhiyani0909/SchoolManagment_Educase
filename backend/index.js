@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Route prefix: /schools
-app.use('/schools', schoolRoutes);
+app.use('/', schoolRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

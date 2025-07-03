@@ -49,3 +49,12 @@ export const addSchool = async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 };
+
+
+export const intialRoute=async(req,res)=>{
+   res.send(`
+    <h2>🏫 Welcome to School Management API</h2>
+    <p>➡️ Use <code>/listSchools?latitude=&longitude=</code> to list nearby schools.</p>
+    <p>➕ Use <code>POST /addSchool</code> to add a new school.</p>
+  `);
+}

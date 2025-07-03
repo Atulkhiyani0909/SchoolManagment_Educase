@@ -6,5 +6,6 @@ const router = express.Router();
 
 router.get('/listSchools', getAllSchools);
 router.post('/addSchool', addSchool);
+router.get('/',intialRoute);
 
 export default router;
