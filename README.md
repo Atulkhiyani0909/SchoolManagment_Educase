@@ -1,13 +1,16 @@
-🏫 SchoolManagement_Educase
-This is a Node.js + Express.js + MySQL backend API that allows users to:
+# SchoolManagement_Educase
 
-📍 Add schools with location details
-📌 Retrieve schools sorted by proximity (latitude/longitude)
-🧭 Use a public MySQL database (FreeSQLDatabase)
-🚀 Tech Stack
-Node.js
-Express.js
-MySQL (hosted via FreeSQLDatabase)
-MySQL2 (Node driver)
-dotenv (for environment management)
-Postman (for API testing)
+This is a Node.js + Express + MySQL backend API that allows you to add schools and get nearby schools based on location.
+
+## 📦 Routes
+
+- `GET /schools?latitude=..&longitude=..` → Returns schools sorted by distance  
+- `POST /schools` → Adds a new school with name, latitude, longitude, and address
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/Atulkhiyani0909/SchoolManagment_Educase.git
+cd SchoolManagment_Educase
+npm install
+node index.js
