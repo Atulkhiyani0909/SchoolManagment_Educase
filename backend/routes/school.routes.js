@@ -1,6 +1,6 @@
 // routes/school.routes.js
 import express from 'express';
-import { getAllSchools, addSchool } from '../controllers/school.controllers.js';
+import { getAllSchools, addSchool ,intialRoute} from '../controllers/school.controllers.js';
 
 const router = express.Router();
 
