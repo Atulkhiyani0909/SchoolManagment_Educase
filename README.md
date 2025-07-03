@@ -4,8 +4,8 @@ This is a Node.js + Express + MySQL backend API that allows you to add schools a
 
 ## 📦 Routes
 
-- `GET /schools?latitude=..&longitude=..` → Returns schools sorted by distance  
-- `POST /schools` → Adds a new school with name, latitude, longitude, and address
+- `GET /listSchools?latitude=..&longitude=..` → Returns schools sorted by distance  
+- `POST /addSchool` → Adds a new school with name, latitude, longitude, and address
 
 ## 🚀 How to Run
 
